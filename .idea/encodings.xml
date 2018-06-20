@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/drv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/pages/MainPage.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/pages/PolicyMakerPage.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/pages/TravelAndBuyPage.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/pages/TravelInsurancePage.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/steps/BaseSteps.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/steps/MainSteps.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/steps/PolicyMakerSteps.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/steps/TravelAndBuySteps.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/steps/TravelInsuranceSteps.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/util/AllureListener.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/util/TestProperties.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/MyTestForAllureReport.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
