@@ -17,9 +17,6 @@ public class MainPage {
     @FindBy(xpath = "//div[@class='kit-col kit-col_xs_10 lg-menu__col']")
     WebElement mainMenu;
 
-    @FindBy(xpath = "//li[position()=6][@class='lg-menu__item']/div[@class='lg-menu__sub']")
-    WebElement insurance;
-
     public MainPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
@@ -30,6 +27,6 @@ public class MainPage {
     }
 
     public void selectInsuranceMenu(String item, WebDriver driver) {
-        new WebDriverWait(driver,10).until(ExpectedConditions.visibilityOf(insurance.findElement(By.xpath("//*[contains(text(),'"+item+"')]")))).click();
+        new WebDriverWait(driver,10).until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//a[contains(text(),'" + item + "')]")))).click();
     }
 }
